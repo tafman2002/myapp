@@ -9,6 +9,7 @@ function App() {
     <div className="App">
      <Todo text="Hello" deleteHandler={deleteHandler} />
      <Todo text="World" deleteHandler={deleteHandler}/>
+     <Todo text="Taf" deleteHandler={deleteHandler} />
     </div>
   );
 }
