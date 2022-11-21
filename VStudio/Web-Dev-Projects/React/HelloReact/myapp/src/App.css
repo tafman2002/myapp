@@ -1,0 +1,41 @@
+/* Remember the order: top right bottom left */
+.naviBar {
+  background-color: darkgoldenrod;
+  padding: 16px 32px;
+  margin: auto -16px;
+  box-shadow: 0 0 10px 0 black;
+}
+
+#pageTitle {
+  margin: 10px 10px 10px 10px;
+  font-weight: bold;
+  font-size:larger;
+  color: white;
+  font-weight: 300;
+}
+
+.Card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  display: inline-block;
+}
+
+/* On mouse-over, add a deeper shadow */
+.Card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+footer p {
+  position:absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
